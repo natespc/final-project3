@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Image Cube</title>
+<style>
+	#basicCube { width: 800px; height: 500px; }
+	body	{ background-color: black; }
+	h1		{ color: white; }
+	a		{ color: lightblue;
+			  font-size: 25px; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.plugin.js"></script>
+<script src="jquery.imagecube.js"></script>
+<script>
+$(function () {
+	$('#basicCube').imagecube();
+});
+</script>
+</head>
+<body>
+<h1>jQuery Image Cube</h1>
+
+<div id="basicCube">
+	<img src="lake01.jpg" alt="Lake">
+	<img src="lake02.jpg" alt="Second Lake" >
+	<img src="lake03.jpg" alt="Third Lake">
+</div>
+
+<a href="http://keith-wood.name/imageCube.html">Source: http://keith-wood.name/imageCube.html</a>
+</body>
+</html>
